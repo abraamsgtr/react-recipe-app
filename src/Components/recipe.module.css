@@ -1,0 +1,49 @@
+.recipe {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.31);
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    /* min-width: 40%; */
+    max-width: 800px;
+    border: 1px solid #ed6663;
+}
+
+.ingredientsTitle {
+    text-align: center;
+    width: 100%;
+    color: #ed6663;
+}
+
+.ingredientsLi {
+    color: #43658b;
+}
+
+.ingredientsUl {
+    text-align: center;
+    width: 90%;
+}
+
+.calorie {
+    color: #ff4b5c;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 20px #ffa372;
+}
+
+.image:hover {
+    width: 220px;
+    height: 220px;
+    box-shadow: 2px 5px 20px #ff4b5c;
+    /* transform: rotate(180deg); */
+}
